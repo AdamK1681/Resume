@@ -87,29 +87,47 @@ a{
 }
 
 .bar{
-    outline: 1px dashed red;
     height: 13px;
     width: 200px;
     border-radius: 0px;
     overflow: hidden;
+    background-color: grey;
+    color: rgb(40,40,40);
+    font-size: 12px;
 }
 
-#bar1{
+#python{
     background-color: rgb(74,144,255);
+    width: 190px;
+    height: 13px;
 }
 
-#bar2{
+#C{
     background-color: lightblue;
+    width: 200px;
+    height: 13px;
+    justify-content: flex-end;
 }
 
-#bar3{
+#htmlcss{
     background-color: limegreen;
+    width: 150px;
+    height: 13px;
 }
 
-#bar4{
+#Java{
     background-color: orange;
+    width: 200px;
+    height: 13px;
 }
 
-#bar5{
+#SQL{
     background-color: red;
+    width: 50px;
+    height: 13px;
+    justify-content: end;
+}
+
+.date{
+    float: right;
 }
